@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <p class="muted">Placeholder text to demonstrate some <a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip">inline links</a> with tooltips. This is now just filler, no killer. Content placed here just to mimic the presence of <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip">real text</a>. And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you've now seen how <a href="#" data-bs-toggle="tooltip" data-bs-title="Another one here too">these tooltips on links</a> can work in practice, once you use them on <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!"></a></p>
+  </head>
+  <body>
+  <!--Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SELAMAT DATANG ADMIN | <b>GALERI BUKUPEDIA</b></a>
+        <form class="d-flex ml-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+        <div class="icon">
+          <h5>
+            <i class="fa-regular fa-envelope mr-5" data-toggle="tooltips" title="Surat Masuk"></i>
+            <i class="fa-solid fa-bell mr-5" data-toggle="tooltips" title="Notifikasik"></i>
+            <i class="fa-solid fa-right-from-bracket mr-5" data-toggle="tooltips" title="Sign Out"></i>
+          </h5> 
+    </div>
+  </nav>
+  <!--End Header-->
+
+  <!--side bar-->
+  <div class="row no-gutters ">
+    <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+      <ul class="nav flex-column ml-3 mb-5">
+        <li class="nav-item">
+          <a class="nav-link active text-white pt-5" aria-current="page" href="#"><i class="fa-solid fa-gauge-high"></i> Dashboard</a><hr class="bg-danger">
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link text-white pt-5" href="#"><i class="fa-solid fa-book"></i>   Katalog Buku</a><hr class="bg-">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white pt-5" href="#"><i class="fa-solid fa-user-pen"></i>   Bukupedia</a><hr class="bg-">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white pt-5"><i class="fa-regular fa-keyboard"></i>   Input Buku</a><hr class="bg-">
+        </li>
+      </ul> 
+    </div>
+    <!--halaman utama-->
+    <div class="col-md-10 p-5 pt-2">
+      <h3><i class="fa-solid fa-gauge-high mr-2"></i>DASHBOARD</h3><hr>
+
+      <div class="rom text-white">
+        <div class="card bg-info ml-3 " style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-body-icon">
+              <i class="fa-solid fa-book mr-2"></i>
+            </div>
+              <h5 class="card-title">Katalog Bukupedia</h5>
+              <div class="display-4">68</div>
+              <a href=""><p class="card-text text-white">View Details<i class="fa-solid fa-angles-right ml-2"></i></a></p>
+          </div>
+        </div>
+
+
+        <div class="rom text-white pt-5">
+          <div class="card bg-danger ml-5 " style="width: 18rem;">
+            <div class="card-body">
+              <div class="card-body-icon">
+                <i class="fa-solid fa-user-pen"></i>
+              </div>
+                <h5 class="card-title">Bukupedia</h5>
+                <div class="display-4">68</div>
+                <a href=""><p class="card-text text-white">View Details<i class="fa-solid fa-user-pen"></i></a></p>
+            </div>
+          </div>
+        
+
+      <div class="rom text-white pt-5">
+        <div class="card bg-success ml-5" style="width: 18rem;">
+          <div class="card-body">
+            <div class="card-body-icon">
+              <i class="fa-regular fa-keyboard"></i>
+            </div>
+              <h5 class="card-title">Input Buku</h5>
+              <div class="display-4">68</div>
+              <a href=""><p class="card-text text-white">View Details<i class="fa-regular fa-keyboard"></i></a></p>
+          </div>
+        </div>
+    
+    
+    
+  
+    
+  </div>
+</div>
+
+  
+
+  <!--end halaman utama-->
+  <!--end side bar-->
+
+  
+    <script type="text/javascript" src="admin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

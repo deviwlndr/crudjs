@@ -1,0 +1,14 @@
+.nav-link:hover{
+    background-color:brown;
+}
+.display-4 {
+    font-weight: bold;
+}
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 10px;
+    opacity: 0.4;
+    font-size: 90px;
+}
